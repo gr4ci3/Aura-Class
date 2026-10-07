@@ -1,0 +1,23 @@
+# Backend Dependencies
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Uploaded Files
+uploads/*
+!uploads/.gitkeep
+
+# Local Runtime Database Data
+database.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & Temp
+.DS_Store
+Thumbs.db
