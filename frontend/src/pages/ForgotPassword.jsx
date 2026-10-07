@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, AlertCircle, ArrowRight, CheckCircle2, ArrowLeft, Loader2, Sparkles } from 'lucide-react';
 import logo from '../assets/logo.png';
+import { API_BASE } from '../config/api';
 import './Auth.css';
-
-const API_BASE = 'http://localhost:5000/api';
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState('');

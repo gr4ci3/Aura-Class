@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { KeyRound, AlertCircle, CheckCircle2, Eye, EyeOff, ArrowRight, ArrowLeft, Loader2, ShieldAlert, Sparkles } from 'lucide-react';
 import logo from '../assets/logo.png';
+import { API_BASE } from '../config/api';
 import './Auth.css';
-
-const API_BASE = 'http://localhost:5000/api';
 
 const ResetPassword = () => {
   const navigate = useNavigate();
